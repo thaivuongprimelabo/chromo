@@ -19,4 +19,4 @@ jobs:
             command: yarn add firebase-tools
 
       - run: ./node_modules/.bin/firebase use
-      - run: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
+      - run: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --force  

@@ -18,6 +18,6 @@ jobs:
             name: install firebase pkg on root
             command: yarn add firebase-tools
 
-            
-      - run: node_modules/.bin/firebase use develop
-      - run: node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --force
+
+      #- run: node_modules/.bin/firebase use develop
+      - run: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"

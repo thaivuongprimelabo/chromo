@@ -63,7 +63,5 @@ node_modules/
 
 # dotenv environment variables file
 .env
-
-.firebaserc
 package.json
 yarn.lock

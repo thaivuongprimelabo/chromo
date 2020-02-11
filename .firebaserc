@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "hennge-20190923"
+  },
+  "targets": {
+    "hennge-20190923": {
+      "hosting": {
+        "login": [
+          "login-pl"
+        ],
+        "admin": [
+          "admin-pl"
+        ]
+      }
+    }
+  }
+}

@@ -65,6 +65,5 @@ node_modules/
 .env
 
 .firebaserc
-firebase.json
 package.json
 yarn.lock
